@@ -1,0 +1,26 @@
+/* 
+Harry Potter Characters
+Based on the website: https://www.mavenanalytics.io/data-playground?page=2
+Dataset titled: Harry Potter Movie Scripts
+*/
+
+
+
+CREATE TABLE hp_characters (ID INTEGER PRIMARY KEY,
+name TEXT,
+species TEXT,
+gender TEXT,
+house TEXT,
+patronus TEXT,
+wand TEXT,
+wand_core TEXT);
+
+INSERT INTO hp_characters VALUES(1, "Harry Potter", "Human", "Male", "Gryffindor", "Stag", "Holly", "Phoenix Feather");
+INSERT INTO hp_characters VALUES(2, "Ron Weasley", "Human", "Male", "Gryffindor", "Jack Russell Terrier", "Willow", "Unicorn Hair");
+INSERT INTO hp_characters VALUES(3, "Hermione Granger", "Human", "Female", "Gryffindor", "Otter", "Vine", "Dragon Heartstring");
+INSERT INTO hp_characters VALUES(4, "Albus Dumbledore", "Human", "Male", "Gryffindor", "Phoenix", "Elder", "Thestral Tail Hair");
+INSERT INTO hp_characters VALUES(5, "Rubeus Hagrid", "Half-Human/Half-Giant", "Male", "Gryffindor", " ", "Oak", " ");
+INSERT INTO hp_characters VALUES(6, "Severus Snape", "Human", "Male", "Slytherin", "Doe", "Ebony", "Dragon Heartstring");
+INSERT INTO hp_characters VALUES(7, "Minverva McGonagall", "Human", "Female", "Gryffindor", "Cat", "Fir", "Dragon Heartstring");
+INSERT INTO hp_characters VALUES(8, "Horace Slughorn", "Human", "Male", "Slytherin", " ", "Cedar", "Dragon Heartstring");
+INSERT INTO hp_characters VALUES(9, "Voldemort", "Human", "Male", "Slytherin", " ", "Yew", "Phoenix Feather");
